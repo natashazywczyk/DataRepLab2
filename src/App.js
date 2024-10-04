@@ -14,6 +14,7 @@ function App() {
       <Router>
         <NavigationBar />
         <Routes>
+          {/*Different clickable routes*/}
           <Route path = "/home" element = {<Content />} />
           <Route path = "/read" element = {<Footer />} />
           <Route path = "/create" element = {<Header />}/>
